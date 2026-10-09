@@ -61,17 +61,17 @@ public class StudentMark {
     
     public void displayResult() {
         System.out.println("=========================================" );
-        System.out.println("I Name: " + fullName+"                       I");
-        System.out.println("I Theory mark: " + theoryMark+"              I");
-        System.out.println("I Practical mark: " + practicalMark+"        I");
-        System.out.println("I Assignment mark: " + assignmentMark+"      I");
+        System.out.println("  Name:                  " + fullName);
+        System.out.println("  Theory mark:           " + theoryMark);
+        System.out.println("  Practical mark:        " + practicalMark);
+        System.out.println("  Assignment mark:       " + assignmentMark);
         System.out.println("=========================================" );
 
 
         if (checkPass() == true) {
-            System.out.println("Result: YOU PASSED");
+            System.out.println("           Result: YOU PASSED");
         } else {
-            System.out.println("Result: YOU FAILED");
+            System.out.println("           Result: YOU FAILED");
         }
        System.out.println("=========================================" );
     }

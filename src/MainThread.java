@@ -11,9 +11,9 @@ public class MainThread {
         Circle c = new Circle(sc.nextDouble());
         
         System.out.println("==================================");
-        System.out.println("  Radius: " + c.getRadius()+"      I");
-        System.out.println("  Area: " + c.getArea()+"          I");
-        System.out.println("  Perimeter: " + c.getPerimeter()+"I");
+        System.out.println("  Radius: " + c.getRadius());
+        System.out.println("  Area: " + c.getArea());
+        System.out.println("  Perimeter: " + c.getPerimeter());
         System.out.println("==================================");
     }
 }
