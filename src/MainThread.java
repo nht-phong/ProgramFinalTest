@@ -6,7 +6,7 @@ public class MainThread {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("EX 1: Circle");
+        System.out.println("---EX 1: Circle---");
 
         Circle c = new Circle(sc.nextDouble());
         
